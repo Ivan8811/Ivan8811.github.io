@@ -15,6 +15,7 @@ body {
 }
 
 /* отступ для секций */
+
 .ptb {
     padding-top: 75px;
     padding-bottom: 75px;
@@ -25,12 +26,12 @@ body {
 .section-color-gray {
     background-color: #f0f2f3;
 }
-
 .section-color-light-gray {
     background-color: #f5f5f5;
 }
 
 /* Кнопка */
+
 .button {
     padding: 14px 21px;
     box-shadow: inset 0px -2px 0px 0px rgba(0, 0, 0, 0.75);
@@ -43,13 +44,13 @@ body {
     border: none;
     cursor: pointer;
 }
-
 .button-green {
     background-color: #58d093;
     box-shadow: inset 0px -2px 0px 0px #3c9066;
 }
 
 /* Шапка */
+
 .header {
     height: 567px;
     background-image: url(../img/bg.jpg);
@@ -57,16 +58,13 @@ body {
     background-position: center;
     background-repeat: no-repeat;
 }
-
 .header-wrap {
     position: relative;
 }
-
 .header .logo {
     position: absolute;
     top: 0;
 }
-
 .header-title {
     margin: 0;
     color: white;
@@ -74,24 +72,20 @@ body {
     font-weight: 300;
     margin-bottom: 20px;
 }
-
 .header-desc {
     font-size: 14px;
     color: white;
     font-weight: 300;
     line-height: 22px;
 }
-
 .header-button-margin {
     margin-top: 35px;
 }
-
 .text-wrap {
     width: 570px;
     padding-top: 240px;
     padding-left: 100px;
 }
-
 .picture-wrap {
     position: absolute;
     right: 48px;
@@ -107,7 +101,6 @@ body {
     margin: 60 0 18px 0;
     text-align: center;
 }
-
 .about__text {
     font-size: 20px;
     font-weight: 300;
@@ -125,7 +118,6 @@ body {
     justify-content: space-between;
     align-items: flex-start;
 }
-
 .get-app-block {
     margin-top: 35px;
     display: flex;
@@ -133,25 +125,20 @@ body {
     width: 40%;
     align-items: flex-start;
 }
-
 .get-app__video {
     width: 45%;
 }
-
-
 .get-app__title {
     font-size: 28px;
     font-weight: 400;
     color: #203837
 }
-
 .get-app__text {
     font-size: 14px;
     color: #203837;
     font-weight: 400;
     margin-top: 25px;
 }
-
 .get-app__button {
     margin-top: 30px;
 }
@@ -164,24 +151,20 @@ body {
     align-items: center;
     flex-wrap: wrap;
 }
-
 .feature__card {
     width: 20%;
     text-align: center;
 }
-
 .feature__icon span::before {
     font-size: 58px;
     color: #1e3536;
 }
-
 .feature__title {
     font-size: 22px;
     font-weight: 300;
     color: #1e3536;
     margin: 20px 0 30px 0;
 }
-
 .feature__text {
     color: #8e8e8e;
     font-size: 14px;
@@ -190,7 +173,7 @@ body {
 }
 
 /* Секция 4я " Коминтарии */
-   
+
 .comment-line {
 	margin: 0 auto; /* Центрирование блочного элемента*/
 	width: 100%;
@@ -234,6 +217,7 @@ body {
 }
 
 /* Сукция 5я "Тарифные планы*/
+
 .section-title {
     font-family: 'Open sans';
     font-size: 42px;
@@ -249,7 +233,6 @@ body {
     text-align: center;
     line-height: 1.5;
 }
-
 .plans-wrapper {
 	display: flex;
 	justify-content: space-between;
@@ -258,14 +241,6 @@ body {
 }
 .plan-inner {
 	background-color: #425a5a;
-	width: 100%;
-	text-align: center;
-	padding: 15px 0;
-	border-top-left-radius: 5px;
-	border-top-right-radius: 5px;
-}
-.plan-inner-green {
-	background-color: #6ead7b;
 	width: 100%;
 	text-align: center;
 	padding: 15px 0;
@@ -281,7 +256,6 @@ body {
 	box-shadow: 0px 0px 19px 3px rgb(19,19,33,0.2);
     border-radius: 5px;   
 }
-
 .plan__price {
     background-color: #425a5a;
     height: 30px;
@@ -297,28 +271,24 @@ body {
     margin-top: -55px;
     box-shadow: 0px 0px 19px 3px rgb(19,19,33,0.2);
 }
+ .plan__card:hover .plan__price {
+    background-color: #88cf95;
+    -webkit-transition:.3s ;
+} 
+.plan__card:hover .plan-inner{
+    background-color: #6ead7b;
+    -webkit-transition:.3s ;
+} 
+.plan__card:hover .plan__button{
+    background-color: #6ead7b;
+    -webkit-transition:.3s ;
+}
 span {
     font-size: 32px;
 }
 .plan__price__text {
     font-size: 14px;
     font-family: 'Open sans';
-}
-.plan__price__green {
-    background-color: #6ead7b;
-    height: 30px;
-    width: 30px;
-    margin: 0 auto;
-    color: white;
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 30px;
-    font-size: 32px;
-    font-weight: 600;
-    margin-top: -55px;
-    box-shadow: 0px 0px 19px 3px rgb(19,19,33,0.2);
 }
 .plan__title {
 	font-size: 36px;
@@ -347,23 +317,6 @@ span {
 	margin-top: 15px;
 	margin-bottom: 15px;
 }
-.plan__button__green {
-	margin-top: 15px;
-    margin-bottom: 15px;
-    padding: 14px 21px;
-    box-shadow: inset 0px -2px 0px 0px rgba(0, 0, 0, 0.75);
-    color: white;
-    border-radius: 6px;
-    background-color: #88cf95;
-    font-size: 18px;
-    font-weight: 300;
-    text-transform: uppercase;
-    border: none;
-    cursor: pointer;
-}
-
-
-
 
 /* секция 6я "Обратная связь*/
 
@@ -389,21 +342,24 @@ span {
 .contact__name {
     color: #b7b7b7;
     font-size: 18px;
-    width: 270px; 
+    width: 267px; 
     background: #e5e5e5;
     padding: 10px;
     padding-left: 20px;
     float: left;
-
+    border: 0px;
+    border-radius: 5px;
 }
 .contact__email {
     font-size: 18px;
     color: #b7b7b7;
-    width: 270px; 
+    width: 267px; 
     background: #e5e5e5;
     padding: 10px;
     padding-left: 20px;  
-    float: right;   
+    float: right;
+    border: 0px;  
+    border-radius: 5px; 
 }
 .contact__message {
     font-size: 18px;
@@ -411,9 +367,11 @@ span {
     width: 480px; 
     background: #e5e5e5;
     padding: 120px;
-    margin-top: 70px;
+    margin-top: 30px;
     padding-left: 20px;
     padding-top: 20px;
+    border: 0px; 
+    border-radius: 5px;
 }
 .contact__button {
     margin-top: 15px;
@@ -425,15 +383,23 @@ span {
    
 }
 
-/* Секция 7я "футер"*/ 
+/* Секция 7я "футер"*/
+
 .footer {
     height: 117px;
     background-image: url(../img/bg.jpg) 
 }
+.footer-wrap {
+    display: flex;
+    width: 94%;
+    justify-content: space-between;
+}
 .footer-inner {
+    display: flex;
     margin-left: 105px;
     float: left;
-}
+    flex-direction: column;
+} 
 .footer-title {
     font-size: 72px;
     color: #ffffff;
@@ -446,17 +412,7 @@ span {
 }
 .footer-icon {
     display: flex;
-    justify-content: flex-end;
-    margin-right: 65px;
-}
-.icon-fasebook {
-    margin-right: 45px;
-    margin-top: 38px;
-}   
-.icon-twitter {
-    margin-right: 45px;
-    margin-top: 38px;
-} 
-.icon-google {
-    margin-top: 38px;
+    max-width: 180px;
+    justify-content: space-between;/* Почему он не работает, когда footer-wrap {display: flex;}? */
+    padding-top: 36px;
 }
