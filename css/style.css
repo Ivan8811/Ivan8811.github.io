@@ -245,7 +245,8 @@ body {
 	text-align: center;
 	padding: 15px 0;
 	border-top-left-radius: 5px;
-	border-top-right-radius: 5px;
+    border-top-right-radius: 5px;
+    transition:.3s;
 }
 .plan__card {
 	background-color: #fff;
@@ -270,18 +271,16 @@ body {
     font-weight: 600;
     margin-top: -55px;
     box-shadow: 0px 0px 19px 3px rgb(19,19,33,0.2);
+    transition: .3s ;
 }
  .plan__card:hover .plan__price {
     background-color: #88cf95;
-    -webkit-transition:.3s ;
 } 
 .plan__card:hover .plan-inner{
     background-color: #6ead7b;
-    -webkit-transition:.3s ;
 } 
 .plan__card:hover .plan__button{
     background-color: #6ead7b;
-    -webkit-transition:.3s ;
 }
 span {
     font-size: 32px;
@@ -315,7 +314,8 @@ span {
 }
 .plan__button {
 	margin-top: 15px;
-	margin-bottom: 15px;
+    margin-bottom: 15px;
+    transition:.3s;
 }
 
 /* секция 6я "Обратная связь*/
@@ -364,15 +364,14 @@ span {
 .contact__message {
     font-size: 18px;
     color: #b7b7b7;
-    width: 480px; 
+    width: 580px; 
     background: #e5e5e5;
-    padding: 120px;
     margin-top: 30px;
-    padding-left: 20px;
-    padding-top: 20px;
+    padding: 20px 20px 120px 20px;
     border: 0px; 
     border-radius: 5px;
 }
+
 .contact__button {
     margin-top: 15px;
     box-shadow: inset 0px -2px 0px 0px rgba(0, 0, 0, 0.75);
@@ -391,13 +390,11 @@ span {
 }
 .footer-wrap {
     display: flex;
-    width: 94%;
     justify-content: space-between;
+    align-items: center;
 }
 .footer-inner {
     display: flex;
-    margin-left: 105px;
-    float: left;
     flex-direction: column;
 } 
 .footer-title {
@@ -412,7 +409,6 @@ span {
 }
 .footer-icon {
     display: flex;
-    max-width: 180px;
-    justify-content: space-between;/* Почему он не работает, когда footer-wrap {display: flex;}? */
-    padding-top: 36px;
+    width: 180px;
+    justify-content: space-between;
 }
