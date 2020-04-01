@@ -367,9 +367,13 @@ span {
     width: 580px; 
     background: #e5e5e5;
     margin-top: 30px;
-    padding: 20px 20px 120px 20px;
+    padding: 20px 20px 0px 20px;
     border: 0px; 
     border-radius: 5px;
+    resize: vertical;
+    min-height: 160px;
+    max-height: 240px;
+    overflow: auto;
 }
 
 .contact__button {
@@ -385,7 +389,7 @@ span {
 /* Секция 7я "футер"*/
 
 .footer {
-    height: 117px;
+    padding: 15px 0px;
     background-image: url(../img/bg.jpg) 
 }
 .footer-wrap {
